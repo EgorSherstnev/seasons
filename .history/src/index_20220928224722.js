@@ -2,7 +2,6 @@ import React from "react";
 import  ReactDOM  from "react-dom";
 import SeasonDisplay from "./SeasonDisplay";
 import Spinner from "./Spinner";
-import Style from "./style/App.css";
 
 class App extends React.Component {
     constructor(props) {
@@ -38,7 +37,7 @@ class App extends React.Component {
     render () {
         return (
             <div className="border red">
-                {this.renderContent()}
+                {this.renderContent}
             </div>
         )
     }
